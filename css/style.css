@@ -163,6 +163,22 @@
     margin-top: 68px;
     margin-left: 4%;
 }
+#wrapDel {
+    display: grid;
+    width: 40px;
+    max-height: 40px;
+    right: 571px;
+    top: 302px;
+}
+#wrapDel2 {
+    position: absolute;
+    cursor: pointer;
+    height: 24px;
+    margin-left: 56%;
+    margin-top: -4px;
+    border: 3px solid #040404;
+    border-radius: 10px;
+}
 
 #header {
     display: grid;
@@ -364,6 +380,33 @@
     display: grid;
     height: 32px;
     z-index: 1;
+}
+
+#d2 input {
+    position: absolute;
+    width: 15%;
+    height: 39px;
+    background: #F9F0DA;
+    background-color: #332;
+    padding-left: 15px;
+    margin-left: 49px;
+    margin-top: -39px;
+}
+#d2 button {
+    height: 33px;
+    width: 33px;
+    position: absolute;
+    top: 8px;
+    right: 57%;
+    background: #F15B42;
+    cursor: pointer;
+}
+#d2 button:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #F9F0DA;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #Rmen-Imges {

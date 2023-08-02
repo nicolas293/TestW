@@ -125,10 +125,11 @@ function telefonText() {
     var testTelefon = document.getElementById("teLefon");
 }
 
-appsMenu.addEventListener('click', function(event) {//При клике на кнопку
-  itamCoppi.classList.add('itamCoppi'); //Покажем блок
-});
+function wrapUpdate() {
+    window.location.reload()
+}
 
-appsMenu.addEventListener('mouseleave', function(event) { //При уводе курсора мыши с родительского блока
-  itamCoppi.classList.remove('itamCoppi'); //Скрываем блок
-});
+function searchAll() {
+    
+}
+
